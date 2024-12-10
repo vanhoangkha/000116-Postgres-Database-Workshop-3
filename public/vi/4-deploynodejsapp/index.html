@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.122.0">
+    <meta name="generator" content="Hugo 0.133.0">
     <meta name="description" content="">
 <meta name="author" content="journeyoftheaverageguy@gmail.com">
 
@@ -12,21 +12,21 @@
     <title>Triển khai Hệ thống quản lý người dùng AWS FCJ :: AWS System Manager</title>
 
     
-    <link href="/css/nucleus.css?1711395096" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1711395096" rel="stylesheet">
-    <link href="/css/hybrid.css?1711395096" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1711395096" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1711395096" rel="stylesheet">
-    <link href="/css/auto-complete.css?1711395096" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1711395096" rel="stylesheet">
-    <link href="/css/theme.css?1711395096" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1711395096" rel="stylesheet">
+    <link href="/css/nucleus.css?1733824602" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1733824602" rel="stylesheet">
+    <link href="/css/hybrid.css?1733824602" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1733824602" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1733824602" rel="stylesheet">
+    <link href="/css/auto-complete.css?1733824602" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1733824602" rel="stylesheet">
+    <link href="/css/theme.css?1733824602" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1733824602" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1711395096" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1733824602" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1711395096"></script>
+    <script src="/js/jquery-3.3.1.min.js?1733824602"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1711395096"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1711395096"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1733824602"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1733824602"></script>
 <script type="text/javascript">
     
-        var baseurl = "\/vi";
+        var baseurl = "\/\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1711395096"></script>
+<script type="text/javascript" src="/js/search.js?1733824602"></script>
 
     
   </div>
@@ -427,7 +427,7 @@
     <br>
     <br>
         <b> Last Updated </b> <br>
-        <i><font color=orange>30-01-2022</font></i>
+        <i><font color=orange>10-12-2024</font></i>
     </left>
     <left>
         <br>
@@ -529,27 +529,27 @@
 <li><strong>AWS Secrets Manager</strong> là dịch vụ giúp bạn quản lý các bí mật, chẳng hạn như mật khẩu cơ sở dữ liệu, khóa API và các thông tin nhạy cảm khác. Điều này giúp bạn dễ dàng giữ bí mật của mình an toàn và bảo mật.</li>
 <li><strong>Handlebars</strong> là một công cụ tạo khuôn mẫu giúp dễ dàng tạo các trang HTML động.</li>
 </ul>
-<p><img src="/images/3/0.jpg" alt="app"></p>
+<p><img alt="app" src="/images/3/0.jpg"></p>
 <h4 id="triển-khai-ứng-dụng">Triển khai ứng dụng</h4>
 <ol>
 <li>Để clone code từ GitHub, bạn có thể sử dụng lệnh sau:</li>
 </ol>
 <pre tabindex="0"><code>git clone https://github.com/hiepnguyendt/fcj-management-user.git
-</code></pre><p><img src="/images/3/1.png" alt="app"></p>
+</code></pre><p><img alt="app" src="/images/3/1.png"></p>
 <ol start="2">
 <li>Chỉnh sửa file <strong>.env</strong> với thông tin xác thực cơ sở dữ liệu của bạn</li>
 </ol>
 <pre tabindex="0"><code>nano .env
-</code></pre><p><img src="/images/3/2.png" alt="app"></p>
+</code></pre><p><img alt="app" src="/images/3/2.png"></p>
 <ul>
 <li><strong>AWS_REGION</strong>: your region</li>
 </ul>
-<p><img src="/images/2.2/3.png" alt="autofetching"></p>
+<p><img alt="autofetching" src="/images/2.2/3.png"></p>
 <ol start="3">
 <li>Chạy code:</li>
 </ol>
 <pre tabindex="0"><code>npm start
-</code></pre><p><img src="/images/3/3.png" alt="app"></p>
+</code></pre><p><img alt="app" src="/images/3/3.png"></p>
 <p><em><strong>Bây giờ, bạn đang kết nối với RDS PostgreSQL bằng cách Tự động tìm nạp thông tin xác thực instance từ AWS Secret Manager.</strong></em></p>
 
 <div class="notices note" ><p>Nếu bạn gặp lỗi khi chạy mã. Bạn nên kiểm tra AWS_region trong AWS CLI</p>
@@ -582,7 +582,7 @@
     courses VARCHAR(150) NOT NULL,
     status VARCHAR(10) NOT NULL DEFAULT &#39;active&#39;
 ) 
-</code></pre><p><img src="/images/3/4.png" alt="app"></p>
+</code></pre><p><img alt="app" src="/images/3/4.png"></p>
 
     </div>
 </div></p>
@@ -612,7 +612,7 @@ VALUES
 (&#39;Israel&#39;, &#39;Adesanya&#39;, &#39;iadesanya@ufc.com&#39;, &#39;012345678910&#39;, &#39;AWS Certified Database – Specialty&#39;,&#39;active&#39;),
 (&#39;Henry&#39;, &#39;Cejudo&#39;, &#39;hcejudo@ufc.com&#39;, &#39;012345678910&#39;, &#39;AWS Certified Solutions Architect - Associate&#39;,&#39;active&#39;),
 (&#39;Valentina&#39;, &#39;Shevchenko&#39;, &#39;vshevchenko@ufc.com&#39;, &#39;012345678910&#39;, &#39;AWS Certified Advanced Networking - Specialty&#39;, &#39;inactive&#39;)
-</code></pre><p><img src="/images/3/5.png" alt="app"></p>
+</code></pre><p><img alt="app" src="/images/3/5.png"></p>
 
     </div>
 </div></p>
@@ -628,7 +628,7 @@ VALUES
 </li>
 </ul>
 <pre tabindex="0"><code>http://&lt;IP address or domain name&gt;:5000
-</code></pre><p><img src="/images/3/6.png" alt="app"></p>
+</code></pre><p><img alt="app" src="/images/3/6.png"></p>
 <p><em><strong>Chúc mừng! Bạn đã xây dựng Hệ thống quản lý người dùng AWS FCJ trên Amazon Web Services.</strong></em></p>
 
 
@@ -842,19 +842,19 @@ VALUES
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1711395096"></script>
-    <script src="/js/perfect-scrollbar.min.js?1711395096"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1711395096"></script>
-    <script src="/js/jquery.sticky.js?1711395096"></script>
-    <script src="/js/featherlight.min.js?1711395096"></script>
-    <script src="/js/highlight.pack.js?1711395096"></script>
+    <script src="/js/clipboard.min.js?1733824602"></script>
+    <script src="/js/perfect-scrollbar.min.js?1733824602"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1733824602"></script>
+    <script src="/js/jquery.sticky.js?1733824602"></script>
+    <script src="/js/featherlight.min.js?1733824602"></script>
+    <script src="/js/highlight.pack.js?1733824602"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1711395096"></script>
-    <script src="/js/learn.js?1711395096"></script>
-    <script src="/js/hugo-learn.js?1711395096"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1733824602"></script>
+    <script src="/js/learn.js?1733824602"></script>
+    <script src="/js/hugo-learn.js?1733824602"></script>
 
-    <link href="/mermaid/mermaid.css?1711395096" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1711395096"></script>
+    <link href="/mermaid/mermaid.css?1733824602" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1733824602"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
