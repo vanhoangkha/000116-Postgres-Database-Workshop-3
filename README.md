@@ -1,4 +1,4 @@
-# 🐘 PostgreSQL Workshop 3
+# PostgreSQL Workshop 3
 
 PostgreSQL high availability and disaster recovery on AWS.
 
@@ -8,7 +8,7 @@ This is a hands-on workshop from the **AWS First Cloud Journey** series.
 
 ## Workshop
 
-📖 **[Start the workshop](https://vanhoangkha.github.io/000116-Postgres-Database-Workshop-3/)**
+**[Start the workshop](https://vanhoangkha.github.io/000116-Postgres-Database-Workshop-3/)**
 
 ## Prerequisites
 
